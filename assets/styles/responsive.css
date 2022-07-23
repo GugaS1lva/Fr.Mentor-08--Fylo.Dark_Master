@@ -1,0 +1,308 @@
+@media (max-width: 1293px){
+    .footer-infos .social{
+        margin: 0 30px 0 -5px;
+    }
+}
+
+@media (max-width: 1255px){
+    .produtive-section{
+        display: flex;
+        flex-direction: column;    
+        gap: 100px;
+    }
+    .produtive-section .produtive-texts-container h2{
+        width: 100%;
+    }
+
+    footer img{
+        margin-left: 100px;
+    }
+    .footer-infos{
+        display: flex;
+        flex-wrap: wrap;
+        width: 950px;
+        justify-content: center;
+        justify-content: space-around;
+        row-gap: 40px;
+    }
+    .location{
+        padding-left: 140px;
+    }
+    .contact{
+        padding-left: 30px;
+    }
+    .about-us{
+        padding-left: 71px;
+    }
+}
+
+@media (max-width: 1170px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer img{
+        margin: 0;
+    }
+
+    .footer-infos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .location{
+        padding-left: 0;
+    }
+    .contact{
+        padding-left: 0;
+    }
+    .contact .phone{
+        margin: 0 -100px;
+    }
+    .contact .email{
+        margin: 0 -100px;
+    }
+    .email{
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .about-us{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1000px){
+    .access-container{
+        padding: 40px 0;
+        width: 90%;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    footer{
+        padding: 200px 0 0 0;
+    }
+    .footer-infos{
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px){
+    .comments-cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px){
+    .intro-section img{
+        width: 85%;
+    }
+    .intro-section h2{
+        width: 95%;
+    }
+
+    .produtive-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .produtive-section img{
+        margin: 0;
+        padding: 0;
+    }
+    .produtive-texts-container,.produtive-texts-container p{
+        width: 90%;
+    }
+
+    .produtive-image-container img{
+        width: 90%;
+        margin-left: 45px;
+    }
+
+    .access-container p{
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px){
+    header{
+        padding: 50px 30px;
+    }
+    header img{
+        width: 90%;
+    }
+    header nav a{
+        margin: 10px;
+    }
+
+    .access-container .contact-container input{
+        padding: 17px 90% 17px 30px;
+    }
+}
+
+@media (max-width: 520px){
+    header img{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+    header nav a{
+        font-size: 0.9rem;
+        margin: 10px;
+    }
+
+
+    .intro-section p{
+        width: 90%;
+    }
+
+    .access-container .contact-container a{
+        margin-left: 0;
+    }
+    .access-container .contact-container input{
+        padding: 17px 15% 17px 30px;
+    }
+    .access-container .contact-container input::placeholder{
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    header img{
+        width: 60%;
+    }
+    header nav a{
+        margin: 5px;
+    }
+
+    
+    .footer-infos .location ul{
+        width: 90%;
+    }
+    .location ul li{
+        margin: 0;
+    }
+}
+
+@media (max-width: 440px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding: 25px;
+    }
+    header a{
+        width: 40%;   
+    }
+    header img{
+        width: 80%;
+    }
+    header nav a{
+        margin: 5px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px){
+    .intro-section h2{
+        font-size: 1.5rem;
+        line-height: 35px;
+        margin: 30px 0 20px 0;
+    }
+    .intro-section p{
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    .intro-section a{
+        margin: 30px 0 0 0;
+    }
+
+    .icon-section{
+        padding-top: 100px;
+    }
+
+    .produtive-section{
+        gap: 50px;
+    }
+    .produtive-section .produtive-texts-container h2{
+        font-size: 1.20rem;
+    }
+    .produtive-section .produtive-texts-container p{
+        font-size: 0.9rem;
+        width: 102%;
+    }
+
+    .comments-section .quotes{
+        width: 40px;
+    }
+    
+    .comments-section{
+        margin: 10px;
+    }
+    .card{
+        margin-bottom: 10px;
+        padding: 25px 17px;
+    }
+    .card p{
+        font-size: 0.84rem;
+    }
+    
+    .get-access-section{
+        padding: 90px 0 0 0;
+    }
+    .access-container{
+        margin-bottom: -170px;
+        border-radius: 8px;
+    }
+    .access-container h2{
+        font-size: 1.2rem;
+    }
+    .access-container p{
+        font-size: 0.9rem;
+    }
+
+    .access-container .contact-container input{
+        padding: 17px 25.9% 17px 30px;
+    }
+    .access-container .contact-container a{
+        padding: 14px 60px;
+    }
+
+
+    footer .logo{
+        margin-left: -110px;
+        margin-top: 50px;
+    }
+    footer .footer-infos .location ul li img{
+        margin-right: 20px;
+    }
+    .footer-infos .contact{
+        margin-left: -60px;
+        margin-top: -20px;
+    }
+    .footer-infos .about-us{
+        margin-left: -210px;
+        margin-top: 30px;
+    }
+    .footer-infos .terms{
+        margin-left: -200px;
+    }
+    .footer-infos .social{
+        margin-top: 50px;
+    }
+
+    .final-credits{
+        text-align: center;
+        width: 300px;
+    }
+}

@@ -12,15 +12,17 @@ header{
 }
 header nav a{
     text-decoration: none;
-    color: white;
+    color: rgb(200, 200, 200);
     margin: 20px;
 }
 header nav a:hover{
     text-decoration: underline;
+    color: white;
 }
 
 .intro-section{
     background: url(../images/bg-curvy-desktop.svg) center bottom no-repeat;
+    background-size: contain;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,20 +34,24 @@ header nav a:hover{
     font-size: 2.5rem;
     width: 700px;
     line-height: 50px;
-    margin: 30px 0;
+    margin: 40px 0;
 }
 .intro-section p{
     width: 500px;
+    line-height: 25px;
 }
 .intro-section a{
     background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-    margin: 30px 0 200px 0;
+    margin: 30px 0 100px 0;
     padding: 12px 70px;
     border-radius: 50px;
     text-decoration: none;
     color: white;
     font-weight: bolder;
     font-size: 0.9rem;
+}
+.intro-section a:hover{
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
 }
 
 .icon-section{
@@ -211,20 +217,42 @@ header nav a:hover{
     padding: 14px 40px;
     border-radius: 50px;
 }
+.access-container .contact-container a:hover{
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(176, 68%, 64%));
+}
 
 footer{
-    background-color: rgb(212, 35, 35);
-    padding: 200px 100px;
+    background-color: hsl(216, 53%, 9%);
+    padding: 200px 100px 50px 70px;
 }
 footer ul li{
     list-style: none;
 }
 .footer-infos{
     display: flex;
+    padding: 50px 0px;
+}
+.footer-infos .location{
+    margin: 0 30px;
+}
+.footer-infos .contact{
+    margin: 0 30px;
+}
+.footer-infos .about-us ul{
+    width: 80px;
+    margin: 0 30px;
+}
+.footer-infos .terms ul{
+    margin: 0 30px;
+    width: 90px;
+}
+.footer-infos .social{
+    margin: 0 30px;
+    
 }
 .footer-infos .location ul{
     display: flex;
-    width: 360px;
+    width: 400px;
 }
 .footer-infos .location ul li img{
     margin: 4px 25px 0 0;
@@ -236,15 +264,31 @@ footer ul li{
     display: flex;
     align-items: center;
 }
+.footer-infos .contact .phone:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .footer-infos .contact .email{
     display: flex;
     align-items: center;
 }
+.footer-infos .contact .email:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .footer-infos .about-us ul li{
     margin: 0 0 12px 0;
 }
+.footer-infos .about-us ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 .footer-infos .terms ul li{
     margin: 0 0 12px 0;
+}
+.footer-infos .terms ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .footer-infos .social{
     margin: 0px 30px;
@@ -255,10 +299,35 @@ footer ul li{
 .footer-infos .social ul li{
     margin: 0 10px 0 10px;
 }
-
-
-
-
-.attribution{
+.fa-brands{
     text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.fa-brands:hover{
+    cursor: pointer;
+    color: hsl(176, 68%, 64%);
+    border: 1px solid hsl(176, 68%, 64%);
+}
+
+.final-credits{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;   
+}
+.final-credits a{
+    text-decoration: none;
+    color: hsl(198, 60%, 50%);
+}
+.final-credits a:hover{
+    transition: 0.2s ease;
+    text-decoration: underline white;
+    text-shadow: 0px 2px 6px hsl(176, 68%, 64%);
+    color: white;
 }
