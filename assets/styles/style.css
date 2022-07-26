@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: hsl(217, 28%, 15%);
     color: white;
@@ -330,8 +334,4 @@ footer ul li{
     text-decoration: underline white;
     text-shadow: 0px 2px 6px hsl(176, 68%, 64%);
     color: white;
-}
-
-html{
-    scroll-behavior: smooth;
 }
